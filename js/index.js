@@ -10,7 +10,7 @@ let cursos = document.querySelector("#menu_opcoes nav a:first-child")
 //alterando link action o formulario
  let formAction = document.querySelector ("form")
  if (formAction) {
-     formAction.action = "sucesso.html";
+     formAction.action = "./sucesso.html";
 }
 
 
@@ -18,7 +18,7 @@ let cursos = document.querySelector("#menu_opcoes nav a:first-child")
 cabecalho.style.backgroundColor = "#2E948A"
 
 //Usando o query selector para chamar o seletor e o first-child para chamar o primeiro link (a)
-cursos.setAttribute("href", "/cursos.html") 
+cursos.setAttribute("href", "./cursos.html") 
 
 // centralizando os elementos da introducao
 let introducao = document.querySelector ("#introducao")
@@ -34,7 +34,7 @@ introducao.style.cssText = `
 function adicionarCampoTelefone() {
   //inserindo um campo de telefone abaixo do campo de email dentro do formulario
   let formTel = document.querySelector ("#formulario form") // criando variavel para selecionar o formulario
-  let campoTelefone = document.createElement ("input") // cruando cariavel para criar um input
+  let campoTelefone = document.createElement ("input") // criando variavel para criar um input
   
   //criando os atributos para o campo do telefone
   campoTelefone.type = "tel"
@@ -170,7 +170,7 @@ titulos.map(function(titulo){
 
 //inserindo link no id todos  os posts e direcionando para a pagina blog
 let todosOsPosts = document.querySelector ("#todos_posts")
-todosOsPosts.setAttribute("href", "/blog.html") 
+todosOsPosts.setAttribute("href", "./blog.html") 
 
 //inserindo uma div nan seção dos cursos
 let investimentos = document.querySelector("#investimentos_poupando_independencia")
