@@ -10,7 +10,7 @@ let cursos = document.querySelector("#menu_opcoes nav a:first-child")
 //alterando link action o formulario
  let formAction = document.querySelector ("form")
  if (formAction) {
-     formAction.action = "/sucesso.html";
+     formAction.action = "sucesso.html";
 }
 
 
