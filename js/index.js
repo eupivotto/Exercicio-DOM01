@@ -86,7 +86,7 @@ novaSecao.innerHTML = `
 
         <section id='falam_sobre'>
             <div class="depoimentos">
-                <img src="/imagens/icon-wally.png" width="80px" height="80px" alt="depoimentos da dindim">
+                <img src="imagens/icon-wally.png" width="80px" height="80px" alt="depoimentos da dindim">
                 <p>
                     ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                     totam rem aperiam.”
@@ -97,7 +97,7 @@ novaSecao.innerHTML = `
             </div>
 
             <div class="depoimentos">
-                <img src="/imagens/icon-jaden.png" width="80px" height="80px" alt="depoimentos da dindim">
+                <img src="imagens/icon-jaden.png" width="80px" height="80px" alt="depoimentos da dindim">
                 <p>
                     ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                     laudantium, totam rem aperiam.”
@@ -108,7 +108,7 @@ novaSecao.innerHTML = `
             </div>
 
             <div class="depoimentos">
-                <img src="/imagens/icon-whoopi.png" width="80px" height="80px" alt="depoimentos da dindim">
+                <img src="imagens/icon-whoopi.png" width="80px" height="80px" alt="depoimentos da dindim">
                 <p>
                     ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                     laudantium, totam rem aperiam.”
@@ -119,7 +119,7 @@ novaSecao.innerHTML = `
             </div>
 
             <div class="depoimentos">
-                <img src="/imagens/icon-jane.png" width="80px" height="80px" alt="depoimentos da dindim">
+                <img src="imagens/icon-jane.png" width="80px" height="80px" alt="depoimentos da dindim">
                 <p>
                     ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
                     laudantium, totam rem aperiam.”
@@ -178,7 +178,7 @@ let investimentos = document.querySelector("#investimentos_poupando_independenci
 investimentos.innerHTML += `
 
 <div id="independencia">
-<img src="/imagens/independencia_financeira.png" width="180px"
+<img src="imagens/independencia_financeira.png" width="180px"
 alt="Independência Financeira">
 <h2>Independência Financeira</h2>
 <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
